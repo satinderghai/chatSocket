@@ -1,0 +1,17 @@
+{
+    "name": "dell/sock",
+    "autoload": {
+        "psr-4": {
+            "Dell\\Sock\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dev",
+            "email": "dev@gmail.com"
+        }
+    ],
+    "require": {
+        "textalk/websocket": "^1.5"
+    }
+}

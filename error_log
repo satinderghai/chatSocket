@@ -1,0 +1,6 @@
+[28-Dec-2021 07:09:58 UTC] PHP Fatal error:  Uncaught WebSocket\ConnectionException: Could not open socket to "staging.sanctuaryappbackend.com:443": Connection timed out (110) stream_socket_client(): unable to connect to ssl://staging.sanctuaryappbackend.com:443 (Connection timed out). in /home/meilleurlar/public_html/wp-socket/wp-content/plugins/chatSocket/vendor/textalk/websocket/lib/Client.php:128
+Stack trace:
+#0 /home/meilleurlar/public_html/wp-socket/wp-content/plugins/chatSocket/vendor/textalk/websocket/lib/Base.php(231): WebSocket\Client->connect()
+#1 /home/meilleurlar/public_html/wp-socket/wp-content/plugins/chatSocket/websocketConnect.php(5): WebSocket\Base->receive()
+#2 {main}
+  thrown in /home/meilleurlar/public_html/wp-socket/wp-content/plugins/chatSocket/vendor/textalk/websocket/lib/Client.php on line 128
